@@ -140,6 +140,13 @@ module.exports = {
               type: "primary",
               plain: true,
             },
+            {
+              label: "自定义模态",
+              eventKey: "showComponent",
+              eventOption: {
+                comName: "customModal",
+              },
+            },
           ],
           rowButtons: [
             {
@@ -183,6 +190,9 @@ module.exports = {
           detailPanel: {
             mainKey: "product_id",
             title: "商品详情",
+          },
+          customModal: {
+            title: "自定义模态",
           },
         },
       },

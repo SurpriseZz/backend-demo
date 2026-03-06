@@ -8,7 +8,7 @@
     "beta": "cross-env _ENV=beta  node ./server.js",
     "prod": "cross-env _ENV=production  node ./server.js",
     "build:dev": "cross-env _ENV=local  node --max_old_space_size=4096 ./build.js",
-    "build:prod": "cross-env _ENV=production node ./build.js"
+    "build:prod": "_ENV=production node ./build.js"
   },
   "author": "木头",
   "license": "ISC",

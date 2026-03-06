@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/acs/node:18
+FROM docker.1ms.run/node:18
 
 RUN mkdir -p /app/elpis-demo
 WORKDIR /app/elpis-demo

@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/library/node:18
+FROM registry.cn-hangzhou.aliyuncs.com/acs/node:18
 
 RUN mkdir -p /app/elpis-demo
 WORKDIR /app/elpis-demo

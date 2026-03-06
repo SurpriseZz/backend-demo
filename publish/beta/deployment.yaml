@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-demo-deployment
+  labels:
+    app: backend-demo
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: backend-demo
+  template:
+    metadata:
+      labels:
+        app: backend-demo
+    spec:
+      containers:
+        - name: backend-demo
+          image: ${image} # Flow 变量
+          ports:
+            - containerPort: 8081

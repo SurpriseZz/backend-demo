@@ -17,8 +17,9 @@
     "nodemon": "^3.1.10"
   },
   "dependencies": {
-    "@eustis/backend-generator": "^1.0.2",
+    "@eustis/backend-generator": "^1.0.5",
     "cross-env": "^10.0.0",
+    "element-plus": "^2.13.6",
     "nodemon": "^3.1.10"
   }
 }

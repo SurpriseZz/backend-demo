@@ -1,3 +1,8 @@
-const FormItemConfig = {};
+import Input1 from "./complex-view/input1.vue";
+const FormItemConfig = {
+  input1: {
+    component: Input1,
+  },
+};
 
 export default FormItemConfig;

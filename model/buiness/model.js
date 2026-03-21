@@ -41,7 +41,7 @@ module.exports = {
               },
               createFormOption: {
                 comType: "input",
-                default: "哲玄新课程",
+                default: "水果",
               },
               editFormOption: {
                 comType: "input",
@@ -203,7 +203,7 @@ module.exports = {
       menuType: "module",
       moduleType: "custom",
       customConfig: {
-        path: "/todo",
+        path: "/todo2",
       },
     },
     {
